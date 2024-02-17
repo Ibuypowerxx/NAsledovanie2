@@ -11,7 +11,7 @@ public class TasksTest {
         Task simpleTask = new SimpleTask(1, "Позвонить родителям");
 
         boolean expected = true;
-        boolean actual = simpleTask.matches("Молоко");
+        boolean actual = simpleTask.matches("Позвонить");
 
         Assertions.assertEquals(expected, actual);
     }
